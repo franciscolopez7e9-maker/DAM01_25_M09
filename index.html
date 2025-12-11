@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <a href="index.html" class="brand-link">
+                        <h1 class="brand-name">Mi Portafolio</h1>
+                    </a>
+                </div>
+
+                <nav class="navigation" role="navigation">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Proyectos</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active">Tecnologías</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript.html" class="dropdown-link">JavaScript</a></li>
+                                <li><a href="html-css.html" class="dropdown-link">HTML & CSS</a></li>
+                                <li><a href="react.html" class="dropdown-link">React</a></li>
+                                <li><a href="python.html" class="dropdown-link">Python</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="index.html#sobre-mi" class="nav-link">Sobre mí</a></li>
+                        <li class="nav-item"><a href="index.html#contacto" class="nav-link nav-cta">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html" class="breadcrumb-link">Inicio</a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current">JavaScript</span>
+            </div>
+
+            <section class="page-header">
+                <div class="page-header-icon js-icon">
+                    <span class="icon-text">JS</span>
+                </div>
+                <div class="page-header-content">
+                    <h1 class="page-title">Proyectos de JavaScript</h1>
+                    <p class="page-description">
+                        Colección de proyectos, ejercicios y tareas realizadas con JavaScript vanilla y ES6+
+                    </p>
+                </div>
+            </section>
+
+            <section class="projects-grid">
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Básico</span>
+                        <span class="project-date">10 Dic 2025</span>
+                    </div>
+                    <h3 class="project-title">Calculadora Interactiva</h3>
+                    <p class="project-description">
+                        Calculadora funcional con operaciones básicas, diseño responsive y manejo de eventos.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">HTML5</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Ver Demo</a>
+                        <a href="#" class="project-link project-link-secondary">Código</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag tag-intermediate">Intermedio</span>
+                        <span class="project-date">8 Dic 2025</span>
+                    </div>
+                    <h3 class="project-title">To-Do List con LocalStorage</h3>
+                    <p class="project-description">
+                        Gestor de tareas con persistencia de datos, filtros, edición y eliminación de items.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">JavaScript ES6</span>
+                        <span class="tech-badge">LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Ver Demo</a>
+                        <a href="#" class="project-link project-link-secondary">Código</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag tag-advanced">Avanzado</span>
+                        <span class="project-date">5 Dic 2025</span>
+                    </div>
+                    <h3 class="project-title">API REST con Fetch</h3>
+                    <p class="project-description">
+                        Consumo de API pública, visualización de datos, paginación y manejo de errores.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Async/Await</span>
+                        <span class="tech-badge">Fetch API</span>
+                        <span class="tech-badge">JSON</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Ver Demo</a>
+                        <a href="#" class="project-link project-link-secondary">Código</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 4 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Básico</span>
+                        <span class="project-date">3 Dic 2025</span>
+                    </div>
+                    <h3 class="project-title">Generador de Frases</h3>
+                    <p class="project-description">
+                        Generador aleatorio de frases motivacionales con efectos de transición y colores dinámicos.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">DOM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Ver Demo</a>
+                        <a href="#" class="project-link project-link-secondary">Código</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 5 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag tag-intermediate">Intermedio</span>
+                        <span class="project-date">1 Dic 2025</span>
+                    </div>
+                    <h3 class="project-title">Reloj Digital Animado</h3>
+                    <p class="project-description">
+                        Reloj digital con múltiples zonas horarias, cronómetro y temporizador incluido.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Date API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Ver Demo</a>
+                        <a href="#" class="project-link project-link-secondary">Código</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 6 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag tag-advanced">Avanzado</span>
+                        <span class="project-date">28 Nov 2025</span>
+                    </div>
+                    <h3 class="project-title">Juego de Memoria</h3>
+                    <p class="project-description">
+                        Juego interactivo con sistema de puntuación, niveles de dificultad y efectos visuales.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">JavaScript ES6</span>
+                        <span class="tech-badge">Animations</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Ver Demo</a>
+                        <a href="#" class="project-link project-link-secondary">Código</a>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Mi Portafolio · Actualizado constantemente</p>
+        </div>
+    </footer>
+</body>
+</html>
